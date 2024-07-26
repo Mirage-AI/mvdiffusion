@@ -70,16 +70,6 @@ from .unet_mv2d_blocks import (
 )
 from einops import rearrange, repeat
 
-from diffusers import __version__
-from mvdiffusion.models.unet_mv2d_blocks import (
-    CrossAttnDownBlockMV2D,
-    CrossAttnUpBlockMV2D,
-    UNetMidBlockMV2DCrossAttn,
-    get_down_block,
-    get_up_block,
-)
-
-
 logger = logging.get_logger(__name__)  # pylint: disable=invalid-name
 
 
